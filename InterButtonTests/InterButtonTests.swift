@@ -18,16 +18,19 @@ class InterButtonTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testInit() throws {
+        let interButton = InterButton(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
+        XCTAssertNotNil(interButton)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testSetDuration() throws {
+        let interButton = InterButton(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
+        interButton.duration = 0.5
+    }
+    
+    func testSetMinimumScale() throws {
+        let interButton = InterButton(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
+        interButton.minimumScale = 0.1
     }
 
 }
