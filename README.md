@@ -4,7 +4,7 @@
 
 InterButton is a simple button that gets smaller when tapped and provides haptic feedback.
 
-<img src="https://github.com/yamajyn/InterButton/blob/main/Resources/screenshots_1.gif" width="100px">
+<img src="https://github.com/yamajyn/InterButton/blob/main/Resources/screenshots_1.gif" width="300px">
 
 ### Lisence
 
